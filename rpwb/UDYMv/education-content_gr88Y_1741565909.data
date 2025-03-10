@@ -156,7 +156,6 @@ Optional - Install Additional Kiwix Zims
 --You can find a full list of wikimedia files already in the ZIM format Kiwix  
 uses at https://download.kiwix.org/zim/ . 
 --Copy the url of the zim(s) you want on you Anyfesto install
-       cd /home/pi/content/kiwix
 --one at a time download the zim(s) you want
        sudo wget (url of zim you want to add)
 --add it to the library.xml Kiwix uses as a catalog 
