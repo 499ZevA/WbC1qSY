@@ -64,7 +64,6 @@
   ;; these ones have to be done with `define-clojure-indent' for now because of upstream bug
   ;; https://github.com/clojure-emacs/clojure-mode/issues/600 once that's resolved we should use `put-clojure-indent'
   ;; instead. Please don't add new entries unless they don't work with `put-clojure-indent'
-  (eval . (define-clojure-indent
            (l/matcha                  '(1 (:defn)))
            (l/matche                  '(1 (:defn)))
            (p.types/def-abstract-type '(1 (:defn)))
