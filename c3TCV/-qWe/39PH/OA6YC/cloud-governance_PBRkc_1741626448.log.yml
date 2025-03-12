@@ -39,6 +39,5 @@ coverage:
       custodian:
       # one of the tests is slightly variable coverage due to concurrency (0.01)
         threshold: "0.10%"
-        paths:
           - "!tools"
       default: off
