@@ -31,7 +31,6 @@ logs
 tmp
 *.tmp
 
-# IDE related
 .idea
 .vscode
 
