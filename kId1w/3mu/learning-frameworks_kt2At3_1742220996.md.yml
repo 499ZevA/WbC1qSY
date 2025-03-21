@@ -24,7 +24,6 @@ exclude_patterns:
   - scripts/
   - security.txt
   - secrets.tar.enc
-checks:
   argument-count:
     config:
       threshold: 10
