@@ -4,7 +4,6 @@ RUN sudo apt-get update \
     && sudo apt-get install -yq --no-install-recommends \
         libpng16-16 \
         libpng-dev \
-        pkg-config \
         autoconf \
         libtool \
         build-essential \
