@@ -1,4 +1,3 @@
-root: ./doc/
 
 structure:
   readme: ./intro.md
