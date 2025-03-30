@@ -9,7 +9,6 @@ repos:
   hooks:
     - id: django-check
       name: "Django system check"
-      description: "Run Django's internal check for common problems"
       entry: python netbox/manage.py check
       language: system
       pass_filenames: false
