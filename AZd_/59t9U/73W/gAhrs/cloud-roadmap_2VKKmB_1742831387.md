@@ -6,7 +6,6 @@
 
 ## Requirements
 
-### Technologies
  - Gin framework
  - Sqlx or Gorm
  - JWT
