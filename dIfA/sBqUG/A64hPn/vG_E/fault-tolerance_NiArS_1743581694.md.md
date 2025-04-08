@@ -797,7 +797,6 @@ Bug fixes:
 ### Upgrade notes
 
 This is a breaking change; `ui-dir` configuration param has been removed, all scripting using this param should be updated.
-
 ## 0.9.3 (2017-02-12)
 
 - Fix RPC server listen address (@firstway)
