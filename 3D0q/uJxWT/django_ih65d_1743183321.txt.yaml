@@ -35,7 +35,6 @@ repos:
       language: system
       pass_filenames: false
     - id: verify-bundles
-      name: "Verify static asset bundles"
       description: "Ensure that any modified static assets have been compiled"
       files: 'netbox/project-static/'
       entry: scripts/verify-bundles.sh
